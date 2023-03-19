@@ -1,0 +1,70 @@
+.flex-container, .main-container, .footer-container, .left-container, .right-container, .header-container, .article-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+main, header, footer {
+    background-color:rgb(197, 192, 192);
+}
+
+.flex-container {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    width: 35%;
+    background-color:rgb(104, 155, 104);
+}
+
+.left-container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;       
+    background-color: beige;                          
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-container {                
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+h4, section {
+    padding: 13px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+}
+
+article {
+    background-color: bisque;
+}
